@@ -9,7 +9,9 @@ const Hero = () => {
     <div className="flex flex-col justify-center items-center w-full">
       <div className="flex flex-col justify-center items-center md:mb-12 mb-8 mt-3">
         <Image src="/agency-logo.png" alt="logo" width={130} height={130} />
-        <div className="-mt-2 uppercase text-md font-bold">Creators mind</div>
+        <div className="-mt-2 uppercase text-md font-bold bg-gradient-to-b from-zinc-100 to-zinc-800 bg-clip-text text-transparent">
+          Creators mind
+        </div>
       </div>
 
       <div className="flex flex-col justify-center items-center md:gap-4 gap-4 lg:w-2/3 w-full max-md:px-4 px-6">
